@@ -11,8 +11,12 @@ a {
 ul {
   list-style-type: none;
 }
-.address-link {
+
+.address {
   font-style: normal;
+}
+
+.address-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -21,20 +25,19 @@ ul {
   color: #434455;
 }
 
+.address-link-email:hover,
+.address-link-email:focus {
+  color: #404bbf;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.studio-header {
-    color: #2e2f42
-}
-.studio-footer {
-    color: #f4f4fd;;
 }
 
 .logo-item {
@@ -44,6 +47,18 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.logo-item-first:hover,
+.logo-item-first:focus {
+  color: #404bbf;
+}
+
+.studio-header {
+  color: #2e2f42;
+}
+.studio-footer {
+  color: #f4f4fd;
 }
 
 .main-section {
@@ -61,7 +76,6 @@ ul {
 }
 
 .main-section-btn {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -69,10 +83,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 .main-section-btn:hover,
 .main-section-btn:focus {
-    background: #404bbf;
+  background: #404bbf;
 }
 
 .benefits-section-title {
@@ -103,7 +118,12 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
+}
+
+.team-section-item {
+  background-color: #ffffff;
 }
 
 .team-section-name {
@@ -123,6 +143,35 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #434455;
+}
+
+.portfolio-section-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-item-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-item-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
